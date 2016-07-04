@@ -57,12 +57,6 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LevelDB.net\LevelDB.NET.csproj">
-      <Project>{66B68F7D-BD4C-4080-9DB9-C0E03D58E171}</Project>
-      <Name>LevelDB.NET</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
