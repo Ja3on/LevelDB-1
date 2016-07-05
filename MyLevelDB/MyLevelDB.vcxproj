@@ -111,13 +111,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="arena.h" />
+    <ClInclude Include="Cache.h" />
+    <ClInclude Include="coding.h" />
+    <ClInclude Include="hash.h" />
     <ClInclude Include="port.h" />
+    <ClInclude Include="port_win.h" />
+    <ClInclude Include="sha1_portable.h" />
     <ClInclude Include="Slice.h" />
     <ClInclude Include="status.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="arena.cpp" />
+    <ClCompile Include="Cache.cpp" />
+    <ClCompile Include="coding.cpp" />
+    <ClCompile Include="hash.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="port_win.cpp" />
+    <ClCompile Include="sha1_portable.cpp" />
     <ClCompile Include="status.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

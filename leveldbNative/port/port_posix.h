@@ -18,8 +18,10 @@
   #endif
 #else
   #include <endian.h>
+
 #endif
 #include <pthread.h>
+
 #ifdef SNAPPY
 #include <snappy.h>
 #endif
