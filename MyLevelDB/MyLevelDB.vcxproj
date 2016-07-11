@@ -114,6 +114,7 @@
     <ClInclude Include="Cache.h" />
     <ClInclude Include="coding.h" />
     <ClInclude Include="hash.h" />
+    <ClInclude Include="mutexlock.h" />
     <ClInclude Include="port.h" />
     <ClInclude Include="port_win.h" />
     <ClInclude Include="sha1_portable.h" />

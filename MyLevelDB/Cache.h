@@ -15,6 +15,7 @@ namespace MyLevelDB
 	{
 	public:
 		Cache(){}
+		~Cache();
 		struct Handle{};
 
 		virtual Handle* Insert(const Slice&, void*, size_t,
